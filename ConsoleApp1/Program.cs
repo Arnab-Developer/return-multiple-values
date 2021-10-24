@@ -57,7 +57,7 @@ internal struct NameStruct
     public string LastName { get; set; }
 }
 
-record NameRecord(string FirstName, string LastName);
+internal record NameRecord(string FirstName, string LastName);
 
 /*
 Output:
