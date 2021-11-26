@@ -1,5 +1,4 @@
-﻿using System;
-using static System.Console;
+﻿using static System.Console;
 
 if (Service1.TryConvertToInt("100", out int num))
 {
